@@ -99,3 +99,10 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+# Vim
+*.sw*
+
+# Pelican
+output/
+*.pid

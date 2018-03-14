@@ -20,14 +20,16 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+LINKS = (
+    ('Pelican', 'http://getpelican.com/'),
+    ('Python.org', 'http://python.org/'),
+    ('Jinja2', 'http://jinja.pocoo.org/'),
+)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (
+    ('twitter', 'https://twitter.com/pythonfrederick'),
+    ('github', '#'),)
 
 DEFAULT_PAGINATION = 10
 
@@ -35,3 +37,9 @@ DEFAULT_PAGINATION = 10
 #RELATIVE_URLS = True
 
 THEME = 'Flex'
+
+SITETITLE = AUTHOR
+SITESUBTITLE = 'Python Frederick organizer'
+SITEDESCRIPTION = 'Demo site for Python Frederick March 2018'
+SITELOGO = 'https://avatars1.githubusercontent.com/u/636865?s=460&v=4'
+
